@@ -1,0 +1,21 @@
+{
+  "name": "scalejs.reactive",
+  "version": "0.0.0",
+  "homepage": "https://github.com/EikosPartners/scalejs.reactive",
+  "authors": ["Dan Tanzer", "Dan Tanzer <dan.tanzer@eikospartners.com>"],
+  "description": "Reactive extension for scalejs (Bower Installable)",
+  "main": [
+    "dist/scalejs.reactive.min.js"
+  ],
+  "ignore": [
+    "*",
+    "!dist/*.js"
+  ],
+  "dependencies": {
+    "scalejs": "lisovin/scalejs",
+    "rxjs": "~2.5.2"
+  },
+  "devDependencies": {
+    "requirejs": "latest"
+  }
+}
