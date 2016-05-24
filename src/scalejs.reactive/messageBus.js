@@ -1,6 +1,6 @@
 /*global define*/
 define([
-    'scalejs!core',
+    'scalejs.core',
     'rx',
     'rx.binding'
 ], function (

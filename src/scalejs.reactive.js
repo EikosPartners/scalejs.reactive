@@ -1,5 +1,5 @@
 define([
-    'scalejs!core',
+    'scalejs.core',
     './scalejs.reactive/reactive',
     './scalejs.reactive/messageBus'
 ], function (
