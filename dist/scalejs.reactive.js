@@ -1,4 +1,3 @@
-
 /*global define*/
 define('scalejs.reactive/reactive',[
     'require',
@@ -50,7 +49,7 @@ define('scalejs.reactive/reactive',[
 });
 /*global define*/
 define('scalejs.reactive/messageBus',[
-    'scalejs!core',
+    'scalejs.core',
     'rx',
     'rx.binding'
 ], function (
@@ -151,7 +150,7 @@ define('scalejs.reactive/messageBus',[
 
 });
 define('scalejs.reactive',[
-    'scalejs!core',
+    'scalejs.core',
     './scalejs.reactive/reactive',
     './scalejs.reactive/messageBus'
 ], function (

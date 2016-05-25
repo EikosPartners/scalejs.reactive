@@ -6,6 +6,11 @@ var require = {
       '<%=ext_name%>'
     ]
   },
+  map: {
+    '*': {
+      'scalejs.core': 'empty:'
+    }
+  },
   paths: {
     requirejs: '../bower_components/requirejs/require',
     'rx.all': '../bower_components/rxjs/dist/rx.all.min',
@@ -25,11 +30,17 @@ var require = {
     'rx.testing': '../bower_components/rxjs/dist/rx.testing.min',
     'rx.time': '../bower_components/rxjs/dist/rx.time.min',
     'rx.virtualtime': '../bower_components/rxjs/dist/rx.virtualtime.min',
-    scalejs: '../bower_components/scalejs/dist/scalejs.min'
+    scalejs: '../bower_components/scalejs/dist/scalejs',
+    'scalejs.core': '../bower_components/scalejs/src/scalejs.core',
+    'scalejs.sandbox': '../bower_components/scalejs/src/scalejs.sandbox',
+    'scalejs.application': '../bower_components/scalejs/src/scalejs.application'
   },
   packages: [
 
-  ]
+  ],
+  shim: {
+
+  }
 };
 /*jshint ignore:end*/
 
